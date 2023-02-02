@@ -136,3 +136,31 @@ footer {
 footer p {
     color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+    .logo {
+        width: 150px;
+    }
+    .content,
+    .hero-text {
+        width: 90%;
+    }
+    .hero-img-tags {
+        width: 100%;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .subtitle {
+        font-size: 15px;
+    }
+    .macbook-img{
+        width: 100%;
+    }
+    .whatsapp-button {
+        left: 82%;
+    }
+    footer p {
+        font-size: 12px;
+    }
+}
